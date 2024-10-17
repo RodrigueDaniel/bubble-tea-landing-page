@@ -79,7 +79,7 @@ const Navbar = () => {
 
                     <div 
                         ref={menuRef}
-                        className="fixed inset-0 bg-primary bg-gradient-to-r from-orange-500 to-pink-600 text-white z-50 flex flex-col justify-center items-center transform translate-x-full"
+                        className="fixed inset-0 bg-primary bg-gradient-to-r from-white/95 to-orange-300 z-50 flex flex-col justify-center items-center transform translate-x-full"
                     >
                         <button
                         onClick={toggleMenu}
@@ -96,7 +96,7 @@ const Navbar = () => {
                             >
                             <Link
                                 href={item.href}
-                                className="text-3xl font-bold text-primary-foreground hover:text-secondary transition-colors"
+                                className="text-3xl font-thin text-primary-foreground hover:text-secondary transition-colors"
                                 onClick={toggleMenu}
                             >
                                 {item.name}
