@@ -30,4 +30,11 @@ body {
 }
 
 
+/* to remove the default scrollbar present in the icon-container above the carousel */
+
+/* .icon-container::-webkit-scrollbar {
+  display: none;
+}
+ */
+
 

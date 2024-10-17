@@ -33,7 +33,7 @@ const Hero = () => {
   return (
     <>
     {/* to have gap between nabar and the hero section mt is given */}
-    <div className="Hero-section w-full mt-[100px] flex flex-col lg:flex-row gap-10 items-center justify-between">
+    <div className="Hero-section w-full mt-[100px] flex flex-col lg:flex-row gap-10 items-center justify-between px-0 lg:px-10 mb-[140px]">
       <div className="hero-heading flex flex-col gap-10 justify-center items-start px-10">
         <h1 className="text-4xl sm:text-6xl lg:text-8xl font-semibold">Savor the Perfect Blend of
            <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-orange-400 to-pink-600"> Flavor!</span>
@@ -44,7 +44,7 @@ const Hero = () => {
       </div>
       <div className="hero-image w-full flex justify-center lg:justify-end items-center mt-[50px] px-10">
         <img src='/images/boba.png' alt="image"
-        className="rounded-3xl shadow-orange-300 shadow-xl object-contain"
+        className="rounded-3xl shadow-orange-200 shadow-xl object-contain"
          />
       </div>
         

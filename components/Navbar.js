@@ -79,7 +79,7 @@ const Navbar = () => {
 
                     <div 
                         ref={menuRef}
-                        className="fixed inset-0 bg-primary bg-gradient-to-r from-white/95 to-orange-300 z-50 flex flex-col justify-center items-center transform translate-x-full"
+                        className="fixed inset-0 bg-primary bg-gradient-to-r from-white to-orange-200 z-50 flex flex-col justify-center items-center transform translate-x-full"
                     >
                         <button
                         onClick={toggleMenu}
