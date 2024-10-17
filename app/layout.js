@@ -22,7 +22,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col
+        bg-gradient-to-r from-white via-orange-100 to-orange-200`}
       >
         {/* navbar will be present in all the pages if applied here */}
         <Navbar />
