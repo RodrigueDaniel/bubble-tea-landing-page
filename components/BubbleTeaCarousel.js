@@ -7,7 +7,7 @@ const slides = [
   {
     title: "Descubre el Sabor de WOW!BOBA",
     description: "Sumérgete en un mundo de sabores únicos y refrescantes. Nuestras creaciones artesanales te transportarán a un oasis de delicia con cada sorbo.",
-    image: "/images/boba2.jpg",
+    image: "/images/image4.png",
     color: "from-pink-400 to-purple-500"
   },
   {
@@ -19,8 +19,14 @@ const slides = [
   {
     title: "Sabores Frutales Exóticos",
     description: "Explora nuestra gama de tés de frutas exóticas y refrescantes. Desde el mango tropical hasta el lichi dulce, hay un sabor para cada aventura.",
-    image: "/images/boba2.jpg",
+    image: "/images/image5.png",
     color: "from-green-400 to-emerald-500"
+  },
+  {
+    title: "Toppings Personalizados",
+    description: "Crea tu boba perfecta con nuestra variedad de toppings únicos. Desde perlas de tapioca hasta jellies frutales, la personalización está en tus manos.",
+    image: "/images/image4.png",
+    color: "from-blue-400 to-emerald-500"
   },
   {
     title: "Toppings Personalizados",
@@ -28,12 +34,6 @@ const slides = [
     image: "/images/boba.png",
     color: "from-blue-400 to-indigo-500"
   },
-  {
-    title: "Toppings Personalizados",
-    description: "Crea tu boba perfecta con nuestra variedad de toppings únicos. Desde perlas de tapioca hasta jellies frutales, la personalización está en tus manos.",
-    image: "/images/boba2.jpg",
-    color: "from-blue-400 to-emerald-500"
-  }
 ]
 
 export default function BubbleTeaCarousel() {
