@@ -1,6 +1,8 @@
 import AboutUs from "@/components/AboutUs"
 import Carousel from "@/components/Carousel"
+import Footer from "@/components/Footer"
 import Hero from "@/components/Hero"
+import Services from "@/components/Services"
 
 const Home = () => {
   return (
@@ -8,7 +10,8 @@ const Home = () => {
       <Hero />
       <Carousel />
       <AboutUs />
-      <div className="h-[100vh]"></div>
+      <Services />
+      <Footer />
     </>
   )
 }

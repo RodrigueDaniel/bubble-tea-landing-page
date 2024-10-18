@@ -58,6 +58,7 @@ const Navbar = () => {
             <div className="overlay w-full h-[70px] backdrop-blur-sm fixed"></div>
             <div className="w-full h-[70px] fixed border-b border-gray-300 justify-between flex items-center px-10 lg:px-40">
                 <div className="logo-container flex justify-between items-center gap-5">
+                  {/* original company logo goes here */}
                     <Link href='/'>Logo</Link>
                     <Link href='/'><h2>BubbleTea</h2></Link>
                 </div>

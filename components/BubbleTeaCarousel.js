@@ -5,36 +5,37 @@ import { gsap } from 'gsap'
 
 const slides = [
   {
-    title: "Descubre el Sabor de WOW!BOBA",
-    description: "Sumérgete en un mundo de sabores únicos y refrescantes. Nuestras creaciones artesanales te transportarán a un oasis de delicia con cada sorbo.",
+    title: "Explore the World of Flavors",
+    description: "Dive into a vibrant fusion of flavors with our handcrafted boba teas. Every sip is a new adventure for your taste buds.",
     image: "/images/image4.png",
     color: "from-pink-400 to-purple-500"
   },
   {
-    title: "Nuestro Té de Leche Clásico",
-    description: "Prueba la perfección en cada sorbo de nuestro té de leche clásico. Una mezcla suave y cremosa que te cautivará desde el primer instante.",
-    image: "/images/boba.png",
+    title: "Signature Milk Tea Perfection",
+    description: "Indulge in our smooth, creamy, and classic milk tea that sets the standard. Experience the perfect balance of tea and milk in every cup.",
+    image: "/images/bubbleTea.jpg",
     color: "from-amber-300 to-orange-400"
   },
   {
-    title: "Sabores Frutales Exóticos",
-    description: "Explora nuestra gama de tés de frutas exóticas y refrescantes. Desde el mango tropical hasta el lichi dulce, hay un sabor para cada aventura.",
+    title: "Exotic Fruit Tea Delights",
+    description: "Discover the freshness of our exotic fruit tea range, crafted with real fruit flavors that refresh and invigorate your senses.",
     image: "/images/image5.png",
     color: "from-green-400 to-emerald-500"
   },
   {
-    title: "Toppings Personalizados",
-    description: "Crea tu boba perfecta con nuestra variedad de toppings únicos. Desde perlas de tapioca hasta jellies frutales, la personalización está en tus manos.",
+    title: "Customize Your Boba Experience",
+    description: "Personalize your drink with our wide array of toppings. From classic tapioca pearls to fruity jellies, make your boba uniquely yours.",
     image: "/images/image4.png",
     color: "from-blue-400 to-emerald-500"
   },
   {
-    title: "Toppings Personalizados",
-    description: "Crea tu boba perfecta con nuestra variedad de toppings únicos. Desde perlas de tapioca hasta jellies frutales, la personalización está en tus manos.",
+    title: "Refreshing Iced Teas & More",
+    description: "Cool down with our selection of refreshing iced teas, available in a variety of flavors and styles to suit every mood.",
     image: "/images/boba.png",
     color: "from-blue-400 to-indigo-500"
   },
 ]
+
 
 export default function BubbleTeaCarousel() {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -123,7 +124,7 @@ export default function BubbleTeaCarousel() {
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">{slide.title}</h2>
                 <p className="text-lg md:text-xl lg:text-2xl mb-8">{slide.description}</p>
                 <button className="bg-white text-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-opacity-90 transition duration-300 self-start">
-                  Descubre Más
+                  Savor Every Sip
                 </button>
               </div>
             </div>
